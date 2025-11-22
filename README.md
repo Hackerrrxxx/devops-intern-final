@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 "# DevOps Intern Final Assessment" 
 "Name: Aditya Ganti" 
 "Date: 22/11/2025" 
@@ -13,4 +13,11 @@ This repository contains the tasks for the DevOps Intern Final Assessment:
 - GitHub Actions CI/CD
 - Nomad job deployment
 - Loki monitoring setup
->>>>>>> c324942af4ee8582b8ee22543cc756845bfdc63a
+## Docker Instructions
+
+### Build the image
+docker build -t devops-hello .
+
+### Run the container
+docker run --rm devops-hello
+
