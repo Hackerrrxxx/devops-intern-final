@@ -21,3 +21,11 @@ docker build -t devops-hello .
 ### Run the container
 docker run --rm devops-hello
 
+
+
+## Loki Monitoring Setup
+- Added a basic Loki configuration file `loki-config.yaml`
+- Defines server, ingester, schema, and storage settings
+- Used for log collection and monitoring
+
+
